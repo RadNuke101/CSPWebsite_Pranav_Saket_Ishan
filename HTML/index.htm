@@ -25,6 +25,7 @@
   </div>
   <div class="w3-dropdown-hover">
     <button class="w3-button">DC</button>
+    
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
       <a href="#" class="w3-bar-item w3-button">Movies</a>
       <a href="#" class="w3-bar-item w3-button">Timeline</a>
@@ -47,14 +48,22 @@
 
 <!-- First Grid: Logo & About -->
 <div class="w3-row">
-  <div class="w3-half w3-red w3-container w3-center" style="height:450px">
+  <div class="w3-half w3-red w3-container w3-center" style="height:700px">
     <div class="w3-padding-64">
-      <h1><button><img src="https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1-768x400.jpg"
+      <h1><button onclick = "myFun()"><img src="https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1-768x400.jpg"
         width="350"
-        height="200"></button></h1>
+        height="200">
+      </button>
+      <script>
+        function myFun() {
+            location.replace("https://www.geeksforgeeks.org/");
+        }
+      </script>
+    </h1>
+        
     </div>
   </div>
-  <div class="w3-half w3-blue w3-container w3-center" style="height:450px">
+  <div class="w3-half w3-blue w3-container w3-center" style="height:700px">
     <div class="w3-padding-64">
       <h1><button><img src = "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/03/DC-Comics-Logo.jpg"
         width = "350"
