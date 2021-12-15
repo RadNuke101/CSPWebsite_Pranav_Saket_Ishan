@@ -58,8 +58,8 @@
 
 ?>
 
-        <table style="height:50vh;width:97vw; position: relative; top: 0; bottom: 0; left: 0; right: 0;border:6px double black; border-radius: 10px">
-            <tr style="font-size: 25px; text-align: left; outline: 3px groove; font-family: Trebuchet MS">
+        <table style="height:75vh;width:100vw; position: relative; top: 0; bottom: 0; left: 0; right: 0;border:7px double black; border-radius: 11px">
+            <tr style="font-size: 28px; text-align: left; outline: 4px groove; font-family: Jost Bold">
                 <th>Hero</th>
                 <th>Universe</th>
                 <th>First Apperance</th>
@@ -72,7 +72,7 @@
             <?php 
                 if($result -> num_rows > 0){
                     while($row = $result->fetch_assoc()) { ?>
-                    <tr class="data" style="outline: 1px dashed gray; font-family: Trebuchet MS">
+                    <tr class="data" style="outline: 1px dashed black; font-family: Jost Bold">
                         <td><?php echo $row['Hero'];?></td>
                         <td><?php echo $row['Universe'];?></td>
                         <td><?php echo $row['First Apperance'];?></td>
