@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style = >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,14 +14,13 @@
 </head>
 
 <div class="w3-bar w3-black">
-  <a href="../HTML/index.htm" class="w3-bar-item w3-button">Home</a>
+  <a href="../HTML/Home_Page.htm" class="w3-bar-item w3-button">Home</a>
   <a href = "heroes.php" class = "w3-bar-item w3-button">Heroes</a>
   <div class="w3-dropdown-hover">
     <button class="w3-button">Marvel</button>
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
       <a href="../HTML/Marvel_Cinema.htm" class="w3-bar-item w3-button">Movies</a>
       <a href="../HTML/Marvel_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
-      <a href="../HTML/Marvel_Cinema.htm" class="w3-bar-item w3-button">TV Shows</a>
     </div>
   </div>
   <div class="w3-dropdown-hover">
@@ -29,7 +28,6 @@
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
       <a href="../HTML/DC_Cinema.htm" class="w3-bar-item w3-button">Movies</a>
       <a href="../HTML/DC_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
-      <a href="../HTML/DC_Cinema.htm" class="w3-bar-item w3-button">TV Shows</a>
     </div>
   </div>
 </div>
