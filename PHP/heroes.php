@@ -31,29 +31,13 @@
   </div>
 </div>
 
-<<<<<<< HEAD
-
-
-<style>
-  body { 
-    font-family: 'Bangers', cursive;
-  }
-</style>
-
-
-=======
->>>>>>> 4607a65feb7c906bd40b1c3bba2b1939fc63aff7
 <body>
     <?php
     ?>
     <?php
         $user = 'root';
         $password = "";
-<<<<<<< HEAD
-        $db = "heroes";
-=======
         $db = "characters";
->>>>>>> 4607a65feb7c906bd40b1c3bba2b1939fc63aff7
 
         $db = new mysqli('localhost', $user, $password, $db) or die("unable to connect");
 
@@ -74,10 +58,6 @@
                 <th>Alter Ego</th>
                 <th>Is Secret?</th>
                 <th>Occupation</th>
-<<<<<<< HEAD
-
-=======
->>>>>>> 4607a65feb7c906bd40b1c3bba2b1939fc63aff7
             </tr>
             <?php 
                 if($result -> num_rows > 0){
