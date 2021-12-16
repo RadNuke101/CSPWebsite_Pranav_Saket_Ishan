@@ -1,0 +1,15 @@
+ul {
+    list-style-type: square;
+}
+
+body { 
+    font-family: 'Bangers', cursive;
+}
+
+h1 { 
+    font-family: 'Bangers', cursive;
+}
+
+.movieName {
+    font-size: 200%;
+  }

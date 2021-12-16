@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Marvel VS DC</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<script src = "/JS/script.js" type = "text/javascript"></script>
+
+<div class="w3-bar w3-black">
+  <a href="Home_Page.htm" class="w3-bar-item w3-button">Home</a>
+  <a href = "../PHP/heroes.php" class = "w3-bar-item w3-button">Heroes</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Marvel</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="Marvel_Cinema.htm" class="w3-bar-item w3-button">Cinema</a>
+      <a href="Marvel_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">DC</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="DC_Cinema.htm" class="w3-bar-item w3-button">Cinema</a>
+      <a href="DC_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
+    </div>
+  </div>
+</div>
+
+
+<body class="w3-content" style="max-width:100%; max-height: 100%;">
+  <div class="w3-row">
+    <div class="w3-half w3-red w3-container w3-center" style="height: 750px;">
+      <div class="w3-padding-64">
+        <h1><button onclick = "myFun1()"><img src="https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1-768x400.jpg"
+          width="350"
+          height="200">
+          </button>
+          <script>
+            function myFun1() {
+              location.replace("About_Marvel.htm");
+            }
+          </script>
+        </h1>
+        <img src = "../PNG/The_Marvel_Universe.png">
+      </div>
+    </div>
+    <div class="w3-half w3-blue w3-container w3-center" style="height: 750px;">
+      <div class="w3-padding-64">
+        <h1><button onclick = "myFun2()"><img src = "https://static3.srcdn.com/wordpress/wp-content/uploads/2020/03/DC-Comics-Logo.jpg"
+          width = "350"
+          height = "200">
+          </button>
+          <script>
+            function myFun2() {
+              location.replace("About_DC.htm");
+            }
+          </script>
+        </h1>
+      </div>
+      <img src = "../PNG/image.png" width = "635">
+    </div>
+  </div>
+
+<footer class="w3-container w3-black w3-padding-16">
+  <p color=#ffffff>Powered by Pranav, Saket, Ishan</p>
+</footer>
+
+</body>
+
+</html>
