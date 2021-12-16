@@ -9,3 +9,7 @@ body {
 h1 { 
     font-family: 'Bangers', cursive;
 }
+
+.movieName {
+    font-size: 200%;
+  }

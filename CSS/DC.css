@@ -11,3 +11,7 @@ ul {
     list-style-type: square;
     font-size:30px;
 }
+
+li {
+    color: #FFFFFF;
+}
