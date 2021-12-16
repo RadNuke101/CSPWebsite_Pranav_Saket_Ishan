@@ -37,13 +37,13 @@
     <?php
         $user = 'root';
         $password = "";
-        $db = "characters";
+        $db = "heroes";
 
         $db = new mysqli('localhost', $user, $password, $db) or die("unable to connect");
 
         // echo "database connected";
 
-        $sql = "SELECT * FROM `heroes`;";
+        $sql = "SELECT * FROM `characters`;";
         $result = mysqli_query($db, $sql);
 
 ?>
