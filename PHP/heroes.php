@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style = >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,13 +30,6 @@
     </div>
   </div>
 </div>
-
-
-<style>
-  body { 
-    font-family: 'Bangers', cursive;
-  }
-</style>
 
 <body>
     <?php
