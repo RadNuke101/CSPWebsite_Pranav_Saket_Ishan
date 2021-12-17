@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(../assets/whitebackground.jpg);">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <title>Search</title>
 </head>
 
-<h1>
+<body>
 <div class="w3-bar w3-black">
   <a href="../HTML/Home_Page.htm" class="w3-bar-item w3-button">Home</a>
   <a href = "heroes.php" class = "w3-bar-item w3-button">Heroes</a>
@@ -29,10 +29,8 @@
     </div>
   </div>
 </div>
-</h1>
 
 
-<body>
 <?php
     $user = 'root';
         $password = "";
