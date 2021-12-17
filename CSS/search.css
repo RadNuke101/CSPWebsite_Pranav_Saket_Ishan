@@ -1,7 +1,11 @@
-body { 
+h1 { 
     font-family: 'Bangers', cursive;
 }
 
 html {
     background-color: lightgray;
+}
+
+body { 
+    font-family: 'Bangers', cursive;
 }
