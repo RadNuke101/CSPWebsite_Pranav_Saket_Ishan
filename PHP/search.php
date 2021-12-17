@@ -10,27 +10,29 @@
     <title>Search</title>
 </head>
 
-<body>
+<h1>
 <div class="w3-bar w3-black">
-  <a href="Home_Page.htm" class="w3-bar-item w3-button">Home</a>
+  <a href="../HTML/Home_Page.htm" class="w3-bar-item w3-button">Home</a>
   <a href = "heroes.php" class = "w3-bar-item w3-button">Heroes</a>
   <div class="w3-dropdown-hover">
     <button class="w3-button">Marvel</button>
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
-      <a href="Marvel_Cinema.htm" class="w3-bar-item w3-button">Cinema</a>
-      <a href="Marvel_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
+      <a href="../HTML/Marvel_Cinema.htm" class="w3-bar-item w3-button">Cinema</a>
+      <a href="../HTML/Marvel_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
     </div>
   </div>
   <div class="w3-dropdown-hover">
     <button class="w3-button">DC</button>
     <div class="w3-dropdown-content w3-bar-block w3-card-4">
-      <a href="DC_Cinema.htm" class="w3-bar-item w3-button">Cinema</a>
-      <a href="DC_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
+      <a href="../HTML/DC_Cinema.htm" class="w3-bar-item w3-button">Cinema</a>
+      <a href="../HTML/DC_Timeline.htm" class="w3-bar-item w3-button">Timeline</a>
     </div>
   </div>
 </div>
+</h1>
 
 
+<body>
 <?php
     $user = 'root';
         $password = "";
