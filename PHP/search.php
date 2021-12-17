@@ -34,19 +34,27 @@
 <?php
     $user = 'root';
         $password = "";
-        $db = "heroes";
+        $db = "characters";
 
         $db = new mysqli('localhost', $user, $password, $db) or die("unable to connect");
 
         // echo "database connected";
     $query = mysqli_real_escape_string($db, $_GET['query']);
-    $sql = "SELECT * FROM characters WHERE Hero LIKE'%$query%'";
+    $sql = "SELECT * FROM heroes WHERE Hero LIKE'%$query%'";
     $result = $db->query($sql);
 
     if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "Hero: " . $row["Hero"]. "<br>";
+        echo "Universe: " . $row["Universe"]. "<br>";
+        echo "First Apperance: " . $row["First Apperance"]. "<br>";
+        echo "Has Powers?: " . $row["Has Powers?"]. "<br>";
+        echo "Main Power: " . $row["Main Power"]. "<br>";
+        echo "Alter Ego: " . $row["Alter Ego"]. "<br>";
+        echo "Is Secret?: " . $row["Is Secret?"]. "<br>";
+        echo "Occupation: " . $row["Occupation"]. "<br>";
+
     }
     } else {
     echo "0 results";
