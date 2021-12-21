@@ -14,6 +14,13 @@
 
 
 <body style = "background-color: dodgerblue;">
+    <div align="center">
+        <!--The rollover image displays here.-->
+        <img src="budgetbatman.jpg" border="0px" 
+        width="650px" height="550px" 
+        onMouseOver="MouseRollover(this)" 
+        onMouseOut="MouseOut(this)" />
+        </div>
     <div class="w3-bar w3-black">
         <a href="Home_Page.htm" class="w3-bar-item w3-button">Home</a>
         <a href = "../PHP/heroes.php" class = "w3-bar-item w3-button">Heroes</a>
@@ -33,6 +40,8 @@
         </div>
     </div>
 
+    
+    <h1> DC Movies </h1>
     <script language="javascript">
         function MouseRollover(MyImage) {
             MyImage.src = "budgetbatman.jpeg";
@@ -41,8 +50,6 @@
             MyImage.src = "dknight.jpeg";
         }
     </script>
-    <h1> DC Movies </h1>
-
     <ul>
         <li>Batman Begins
             <ul>
