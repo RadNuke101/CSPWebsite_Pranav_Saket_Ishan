@@ -21,3 +21,8 @@ body {
     margin-right: auto;
     width: 50%;
   }
+
+div { 
+    display:block; 
+    float:left; 
+}
