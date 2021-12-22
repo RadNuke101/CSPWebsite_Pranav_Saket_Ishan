@@ -1,5 +1,6 @@
 body { 
-    font-family: 'Banger', cursive;
+    font-family: 'Courier New', cursive;
+    color: #FFFFFF;
   }
 
 h1 { 
@@ -8,7 +9,7 @@ h1 {
     color: #FFFFFF;
 }
 body{
-    background-image: url('https://wallpaperaccess.com/full/705020.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp7718462.jpg');
     background-size: cover;
     height: 100vh;
     padding:0;
