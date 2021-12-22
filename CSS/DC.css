@@ -4,7 +4,9 @@ body {
 
 h1 { 
     font-family: 'Courier New', cursive;
+    text-align: center;
     color: #FFFFFF;
+    
 }
 body{
     background-image: url('https://wallpaperaccess.com/full/1829697.jpg');
