@@ -12,6 +12,8 @@
     <title>Heroes</title>
 </head>
 
+
+<!-- Dropdown Navigation Bar -->
 <div class="w3-bar w3-black">
   <a href="../HTML/Home_Page.htm" class="w3-bar-item w3-button">Home</a>
   <a href = "heroes.php" class = "w3-bar-item w3-button">Heroes</a>

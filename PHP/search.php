@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" style="background-color: rgb(181, 136, 158);">
+<html lang="en" style="background-color: rgb(211,211,211);">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,8 @@
     <title>Search</title>
 </head>
 
+
+<!-- Dropdown Navigation Bar -->
 <body>
 <div class="w3-bar w3-black">
   <a href="../HTML/Home_Page.htm" class="w3-bar-item w3-button">Home</a>
