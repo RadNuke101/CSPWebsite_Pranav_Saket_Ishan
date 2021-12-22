@@ -4,9 +4,13 @@ ul {
 }
 
 body { 
-    font-family: 'Bangers', cursive;
+    font-family: 'Courier New', cursive;
+    color:black;
+    font-weight: bold;
 }
 
 h1 { 
-    font-family: 'Bangers', cursive;
+    font-family: 'Courier New', cursive;
+    color:black;
+    font-weight: bold;
 }

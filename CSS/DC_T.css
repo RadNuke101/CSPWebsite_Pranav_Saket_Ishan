@@ -1,11 +1,13 @@
 body { 
     font-family: 'Courier New', cursive;
     color:black;
+    font-weight: bold;
 }
 
 h1 { 
     font-family: 'Courier New', cursive;
     text-align: center;
+    font-weight: bold;
 }
 
 ul {
