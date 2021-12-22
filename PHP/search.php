@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" style="background-color: rgb(181, 136, 158);">
+<html lang="en" style="background-color: rgb(211,211,211);">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
