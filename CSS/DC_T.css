@@ -1,9 +1,11 @@
 body { 
-    font-family: 'Bangers', cursive;
+    font-family: 'Courier New', cursive;
+    color:white;
 }
 
 h1 { 
-    font-family: 'Bangers', cursive;
+    font-family: 'Courier New', cursive;
+    text-align: center;
 }
 
 ul {
