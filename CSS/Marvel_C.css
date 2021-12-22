@@ -15,13 +15,3 @@ body {
     color:black;
 }
 
-.center {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px; 
-}
-
-#images{
-    text-align:center;
-}
